@@ -291,6 +291,68 @@
             </div>
         </div>
     </footer>
+    <a class="float-button1" target="_blank" href="https://wa.me/9130817575?text=">
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        <span class="th">Message me<span>
+      </a>
+    <style>
+        .float-button1 {
+        text-decoration: none;
+        position: fixed;
+        padding: 10px;
+        padding-right: 15px;
+        bottom:70px;
+        right: 15px;
+        color: #fff;
+        background-color:#25D366;
+        border-radius: 25px 30px 5px 25px;
+        z-index: 100;
+        font-family: Arial;
+        font-size: 17px;
+        animation: whatsapp-animation 0.5s ease-in-out;
+        box-shadow: 1px 2px 5px 2px rgba(30,30,30,0.3);
+        transition:all 0.3s ease-out;
+    }
+
+    .float-button1:hover {
+         background-color: #128C7E;
+          color: #fff;
+    }
+
+    .fa-whatsapp {
+        font-size: 20px !important;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    @keyframes whatsapp-animation {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 100%
+        }
+    }
+
+    @media screen and (max-width: 545px) {
+        .th{
+            display: none;
+        }
+
+        .float-button1 {
+            bottom: 80px;
+            right: 17px;
+            width: 50px;
+            border-radius: 20px 20px 5px 20px;
+        }
+
+        .fa-whatsapp {
+            font-size: 30px !important;
+            padding: 4px;
+        }
+    }   
+    </style>
 
 
     <div id="back-top">
